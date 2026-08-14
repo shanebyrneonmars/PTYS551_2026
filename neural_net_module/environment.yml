@@ -1,0 +1,27 @@
+name: nn_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - matplotlib
+  - pip
+  - numpy=1.26
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pandas
+  - opencv
+  - pillow
+  - ipykernel
+  - ipywidgets
+  - ipython
+  - pip:
+      - tensorflow-metal
+      - torch
+      - torchvision
+      - torchaudio
+      - keras-cv
+      - umap-learn
+
