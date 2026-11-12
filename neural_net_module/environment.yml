@@ -18,10 +18,8 @@ dependencies:
   - ipywidgets
   - ipython
   - pip:
-      - tensorflow-metal
       - torch
       - torchvision
       - torchaudio
-      - keras-cv
+      - transformers
       - umap-learn
-
